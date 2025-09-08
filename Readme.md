@@ -10,10 +10,6 @@ void main(){
     print('Hello $name');
 }
 ```
-```dart
-var a = null ?? true;
-print(a);
-```
 
 ```dart
 void main(){
@@ -108,3 +104,6 @@ class IceCream{
     flutter create -e [Application Name]
     ```
 2. Install Dart Package
+    ```bash
+    flutter pub add [Package Name]
+    ```
